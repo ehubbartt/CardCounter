@@ -1,0 +1,59 @@
+{
+  "Joker": {
+    "numLeft": 2,
+    "isSelected": false
+  },
+    "2": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "Ace": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "King": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "Queen": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "Jack": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "10": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "9": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "8": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "7": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "6": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "5": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "4": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+    "3": {
+    "numLeft": 4,
+    "isSelected": false
+  },
+  "numDecks": 1
+}

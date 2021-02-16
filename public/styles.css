@@ -1,0 +1,105 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: linear-gradient(to right, #5FC3E4, #E55D87);
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+}
+
+#navigation {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#counterButtons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  height: 200px;
+}
+
+.button {
+  padding: 20px;
+  border: 5px outset #777;
+  border-radius: 15px;
+  text-align: justify;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  margin: 1px 1px 1px 1px;
+}
+
+.button img {
+  display: block;
+  margin: 0 auto;
+}
+
+.playingCard {
+  width: 100px;
+  height: 140px;
+}
+
+#restartGame {
+  display: inline-block;
+  background-color: black;
+  border-radius: 2rem;
+  padding: 5px;
+  color: red;
+  cursor: pointer;
+}
+
+#cardSettings {
+  display: block;
+  border: 5px outset #777;
+  border-radius: 15px;
+  width: 95%;
+  margin: 5px;
+}
+
+
+.nameOfCard, .numOfDecks { 
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.nameOfCard:hover {
+  color: blue;
+  background-color: blanchedalmond;
+}
+
+.selected {
+  box-shadow: 5px 2.5px 2.5px black;
+}
+
+.hidden {
+  display: none;
+}
