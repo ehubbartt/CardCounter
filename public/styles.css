@@ -103,3 +103,8 @@ nav a {
 .hidden {
   display: none;
 }
+
+#crossBajj > img {
+  height: 100px;
+  width: 100px;
+}
