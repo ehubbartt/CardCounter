@@ -9,7 +9,7 @@
     try {
       let info = localStorage.getItem('CardInfo');
       if (info === null) {
-        let resp = await fetch('CardInfo');
+        let resp = await fetch('CardInfo.json');
         checkStatus(resp);
         info = await resp.json();
       } else {
